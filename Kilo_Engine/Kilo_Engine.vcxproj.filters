@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kilo">
+      <UniqueIdentifier>{F4FC877C-E033-890D-8920-6F107536050F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kilo\Event">
+      <UniqueIdentifier>{4565DCAA-311D-1EF8-9A24-F75386FBB8E8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Kilo.h" />
+    <ClInclude Include="src\Kilo\Application.h">
+      <Filter>Kilo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kilo\Core.h">
+      <Filter>Kilo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kilo\EntryPoint.h">
+      <Filter>Kilo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kilo\Event\ApplicationEvent.h">
+      <Filter>Kilo\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kilo\Event\Event.h">
+      <Filter>Kilo\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kilo\Event\KeyEvent.h">
+      <Filter>Kilo\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kilo\Event\MouseEvent.h">
+      <Filter>Kilo\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kilo\Log.h">
+      <Filter>Kilo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Kilo\Application.cpp">
+      <Filter>Kilo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kilo\Log.cpp">
+      <Filter>Kilo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
